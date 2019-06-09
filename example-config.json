@@ -1,0 +1,10 @@
+{
+  "provider": "https://ethereumclassic.network/",
+  "blockchain": "ETC",
+  "token": "0x1be6d61b1103d91f7f86d47e6ca0429259a15ff0",
+  "fundMinimum": "0.3",
+  "tokenLimit": "1000",
+  "spread": "0.00001",
+  "dustCutoff": "0.001",
+  "bandSize": "2"
+}

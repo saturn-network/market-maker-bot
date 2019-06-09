@@ -1,0 +1,41 @@
+{
+  "name": "@saturnnetwork/market-maker-bot",
+  "version": "0.1.0",
+  "description": "Market making bot for Saturn.network",
+  "main": "market-maker.js",
+  "bin": "./market-maker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blockchain",
+    "eth",
+    "etc",
+    "ethereum",
+    "token",
+    "erc20",
+    "erc223",
+    "saturn",
+    "dex",
+    "market-maker",
+    "market-making",
+    "decentralized",
+    "trading",
+    "bot",
+    "price"
+  ],
+  "author": "Saturn Network",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "@saturnnetwork/market-maker-strategy": "^0.0.4",
+    "@saturnnetwork/saturn.js": "^0.1.3",
+    "bignumber.js": "^8.1.1",
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "ethers": "^4.0.27",
+    "lodash": "^4.17.11"
+  }
+}
