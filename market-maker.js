@@ -27,7 +27,7 @@ async function makeNewOrder(elem, saturn, botconfig) {
 
 async function makeNewTrade(elem, saturn, botconfig) {
   let executor = saturn[elem.blockchain.toLowerCase()]
-  let tx = await executor.newTrade(elem.amount.toString(), elem.order_tx)
+  let tx = await executor.newTrade(elem.amount, elem.order_tx)
   await saturn.query.awaitTradeTx(tx, executor)
 }
 
