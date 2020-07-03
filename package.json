@@ -1,6 +1,6 @@
 {
   "name": "@saturnnetwork/market-maker-bot",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Market making bot for Saturn.network",
   "main": "market-maker.js",
   "bin": "./market-maker.js",
@@ -30,8 +30,8 @@
     "node": ">=10.0.0"
   },
   "dependencies": {
-    "@saturnnetwork/market-maker-strategy": "^0.0.5",
-    "@saturnnetwork/saturn.js": "^0.1.5",
+    "@saturnnetwork/market-maker-strategy": "^0.0.6",
+    "@saturnnetwork/saturn.js": "^0.1.8",
     "bignumber.js": "^8.1.1",
     "chalk": "^2.4.1",
     "commander": "^2.19.0",
