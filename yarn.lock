@@ -2,21 +2,21 @@
 # yarn lockfile v1
 
 
-"@saturnnetwork/market-maker-strategy@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@saturnnetwork/market-maker-strategy/-/market-maker-strategy-0.0.5.tgz#0ec2fa9a1d3a2de5c43f0fb75ae0fe106a4aa2ba"
-  integrity sha512-HE5odiJqV5ArJUCbS36GTP23wXBDRsn/pzHHaQnInwCSPtKyY39gwdtGMOzYutsg5toQXcziQV//X+YUkvnmww==
+"@saturnnetwork/market-maker-strategy@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@saturnnetwork/market-maker-strategy/-/market-maker-strategy-0.0.6.tgz#b2f973c9ca06e2f306cde83d77a7dce1b6993afc"
+  integrity sha512-04sFiCTCnlnSttqCFjhqw/y87r8qZTGcaioxNj1eSpV4QiMhg9BDjY0Hj9Dopo6/Y3uzzajB+J2eHl2HOjM3kA==
   dependencies:
-    "@saturnnetwork/saturn.js" "^0.1.5"
+    "@saturnnetwork/saturn.js" "^0.1.8"
     bignumber.js "^8.1.1"
     chalk "^2.4.2"
     ethers "^4.0.27"
     lodash "^4.17.15"
 
-"@saturnnetwork/saturn.js@^0.1.5":
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/@saturnnetwork/saturn.js/-/saturn.js-0.1.5.tgz#c0d2910ee417a1300acca09ad0e2fe37c64b9830"
-  integrity sha512-eketw3vuyl4pScwvlyxKjj8zgCi66kubpWmWpmimFg4etfyCIHyJteYx2ZORX+8xdV3JMeIXk7SsvVWKJoI+uQ==
+"@saturnnetwork/saturn.js@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@saturnnetwork/saturn.js/-/saturn.js-0.1.8.tgz#32a804c96ddb64329d5bb985e9d850da2262e457"
+  integrity sha512-IRJPCudqMwwDKpm1G7X5gUOH4mrrV7ICSYAshxQmkw7xu0hd9YLJX9IOPawF2VwaBRBkyqVDdhvybddOnAqEOg==
   dependencies:
     axios "^0.19.0"
     bignumber.js "^8.1.1"
@@ -202,9 +202,9 @@ js-sha3@0.5.7:
   integrity sha1-DU/9gALVMzqrr0oj7tL2N0yfKOc=
 
 lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-symbols@^2.2.0:
   version "2.2.0"
